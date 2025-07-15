@@ -1,0 +1,61 @@
+The Python program that takes two integer inputs from the user and calculates the value of the first number multiplied with the second. The program should perform the following tasks:
+After printing "This program multiplies two numbers."
+
+1. Prompt the user to enter the first number.
+
+2. Read the input and convert it to an integer.
+
+3. Prompt the user to enter the second number.
+
+4. Read the input and convert it to an integer.
+
+5. Calculate the value of multiplying the two numbers.
+
+6. Print the value
+
+
+# In order to pass the tests you will need very specific prompts:
+
+#num1 = input("Enter first number: ")
+#num2 = input("Enter second number: ")
+
+
+--------------------------------------------------------------------------------
+
+
+"""
+Program: multiply two numbers
+--------------------
+This program asks the user for two
+integers and prints the value of the first number
+multiplied with the second
+"""
+
+def main():
+    print("This program multiplies two numbers.")
+    num1=input("Enter first number:")
+    num1=int(num1)
+    num2=input("Enter second number:")
+    num2=int(num2)
+    total = num1 * num2
+    print ("" + str(total))
+
+
+
+# This line is required at the end of
+# Python file to call the main() function.
+if __name__ == '__main__':
+    main()
+
+
+
+
+
+
+
+
+
+
+
+
+
