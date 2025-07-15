@@ -1,0 +1,16 @@
+#A customizable version of the classic "hello world!" program in main.py which, instead of saying "hello world!", prompts the user for their name and then says hello to them! 
+#using the following Python console functions:
+#input gets input from the user, as a string. You can, and should, store the user input into a variable:
+# result = input("prompt")
+# print writes to the console:
+# print("hello")
+
+
+def main():
+     
+    name=input("What is your name?")
+    print(f" Hello {name}")
+
+
+if __name__ == '__main__':
+    main()
