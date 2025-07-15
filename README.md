@@ -21,41 +21,10 @@ Enter a weight on Earth: 120
 The equivalent weight on Mars: 45.36
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-"""
-Prompts the user for a weight on Earth
-and prints the equivalent weight on Mars.
-"""
 
-    
-    def main(): 
-        earth_weight = float(input("Enter a weight on Earth: "))
-        #mars_weight = round(earth_weight *0.378, 2 )                                #the first few lines 34 to 37 will provide the weight on mars. 
-        #print(f" The equivalent weight on Mars: {mars_weight}")
-        # mars weight 
+<img width="570" height="773" alt="image" src="https://github.com/user-attachments/assets/651c12ef-444f-436f-bf1e-5352683f904a" />
 
-    #task 2 planetary weights calculator 
-    planet = input("Enter a planet: ")                                       # task 2 shows the weight on another planet 
-    #planets percentag figures, milestone 2 
-    gravity_multipliers = {
-        "Mercury": 0.376,
-        "Venus": 0.889,
-        "Mars": 0.378,
-        "Jupiter": 2.36,
-        "Saturn": 1.081,
-        "Uranus": 0.815,
-        "Neptune": 1.14
-    }
-
-    # multiplier from dictionary of planet names 
-    multiplier = gravity_multipliers[planet]
-    #equivalent weight on planet 
-    planetary_weight = round(earth_weight * multiplier, 2)
-
-    #to show the result
-    print(f"The equivalent weight on {planet}:{planetary_weight}")
-
-       if __name__ == "__main__":
-          main()
+ 
 
 
 
@@ -64,7 +33,9 @@ and prints the equivalent weight on Mars.
 
 
 
-Indentations are key and the code above is not properly indented due to extra notes with # within code to produce the calculations. 
+
+Indentations are key when writing code. 
+
 
 
 
