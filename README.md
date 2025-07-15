@@ -71,9 +71,58 @@ Indentations are key and the code above is not properly indented due to extra no
 
 
 
+Haiku Generator 
+
+
+Write a program to create a Haiku, using ai.
+A haiku is a type of very short poem that originated in Japan. It has three lines. The first line has 5 syllables, the second has 7 syllables, and the third has 5 syllables again. Haiku usually describe a moment in nature or a feeling, using clear, simple images. Even though it is brief, a good haiku often gives the reader a quiet, thoughtful feeling.
+Prompt the user to enter their name, and a topic. Then make use call_gpt to turn the name and topic into a haiku. We leave it up to you to come up with the prompt! Here are some sample runs:
+
+For example: 
+
+Enter your name: Freya
+Enter a topic: Rain in the forest
+Creating your haiku...
+
+Freya roams the woods,  
+Whispers dance with gentle rain,  
+Nature's song remains.
 
 
 
+Enter your name: Chris
+Enter a topic: a global python classroom
+Creating your haiku...
+
+In the global space,  
+Chris guides minds through Python's flow,  
+Code unites us all.
+
+
+Code to create Haiku Generator using AI: 
+
+        from ai import call_gpt
+
+         def main():
+              name = input("Enter your name: ")
+              topic = input("Enter a topic: ")
+              prompt = f"write a haiku about {topic} addressed to {name}."
+              print("Creating your haiku...")
+              response = call_gpt(prompt)
+              print(response)
+
+         if __name__ == "__main__":
+              main()
+
+
+Notice the indentation for the code 
+
+
+
+
+
+
+    
 
 
 
