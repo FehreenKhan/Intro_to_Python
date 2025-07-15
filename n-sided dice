@@ -1,0 +1,49 @@
+Did you know that not all dice have 6 sides? You can find dice with 8 sides, 10 sides and even 20 sides? 
+
+Task: Creating a program which takes as input the number of sides on a dice.  Then, simulate rolling a dice with that many sides. Print the outcome of the roll. When you're done, click on the "Check Correct" button.
+
+If a dice has 8 sides, rolling the dice should produce one of the following values: 
+
+1, 2, 3, 4, 5, 6, 7, 8
+
+
+If the dice had only 4 sides, it could result one of the following values:
+
+1, 2, 3, 4
+
+
+Recall that python has a special function random.randint(...) which takes in two numbers: a minimum value and a maximum value. randint will return back a random whole number which is greater than or equal to the min, and less than or equal to the max:
+
+random.randint(5, 9) # returns one of [5, 6, 7, 8, 9] randomly
+
+
+Note that you don't have to handle the case where the user enters invalid number of sides (for example a 0, a negative number, or a non-integer).
+
+
+
+import random  #need to import the random function from the library 
+
+def main():
+    sides = int(input("How many sides does your dice have?"))  #the use of int will allow for entering of only a number as an integer of as many digits as you like for the dice sides. 
+    roll = random.randint(1,sides)  # means 1 as the minimum  and no specified maximum, if entering 1 then will only get 1 but cannot be 0 or none 
+    print(f"Your roll is {roll}")  # prints the total roll number generated. 
+    
+
+if __name__ == '__main__':
+    main()
+# the main function must always be present 
+
+# the '#' is used for comments. 
+
+
+
+
+
+
+
+
+
+
+
+
+
