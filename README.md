@@ -1,4 +1,4 @@
-Mars Weight
+# Mars Weight
 
 A few years ago, NASA made history with the first controlled flight on another planet. 
 Its latest Mars Rover, Perseverance, has onboard a 50cm high helicopter called Ingenuity. 
@@ -12,7 +12,7 @@ When programming Ingenuity, one of the things that NASA engineers need to accoun
 Write a Python program that prompts an Earthling to enter their weight on Earth and prints their calculated weight on Mars. The output should be rounded to two decimal places when necessary.
 Python has a round function which can help you with this. You pass in the value to be rounded and the number of decimal places to use.
 
-# figures to enter for a sample run: 
+# Figures to enter for a sample run: 
 
 $ python marsweight.py
 
@@ -26,9 +26,6 @@ Prompts the user for a weight on Earth
 and prints the equivalent weight on Mars.
 """
 
-
-def main():
-    
     
     def main(): 
         earth_weight = float(input("Enter a weight on Earth: "))
@@ -71,7 +68,7 @@ Indentations are key and the code above is not properly indented due to extra no
 
 
 
-Haiku Generator 
+# Haiku Generator 
 
 
 Write a program to create a Haiku, using ai.
@@ -99,7 +96,7 @@ Chris guides minds through Python's flow,
 Code unites us all.
 
 
-Code to create Haiku Generator using AI: 
+Code to create Haiku Generator by importing the AI library via python. 
 
         from ai import call_gpt
 
